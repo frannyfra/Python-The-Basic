@@ -16,3 +16,15 @@ else:
 age = 18
 print(type(age))
 # Will print <class "int> - same as typeof in JS
+
+name = "Francesca"
+# "" or '' are delimeter in python; 
+print(type(name), name)
+
+# Casting -> it returns a floating even though the number is an integer - converstion in JS?
+number = float(2)
+print(type(number))
+
+# Tuple 
+number_and_age = (number, age)
+print(number_and_age)
